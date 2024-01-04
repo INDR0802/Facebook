@@ -1,0 +1,95 @@
+* {
+    background-color: #ececf0;
+}
+
+.intro {
+    /* border: solid 2px black; */
+    width: 45%;
+    margin-top: 5%;
+    margin-left: 8%;
+    display: inline-block;
+}
+
+#title {
+    font-size: 60px;
+    padding-left: 20%;
+    /* border: solid 2px black; */
+    margin-bottom: 2%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #316FF6;
+}
+
+#tagline {
+    padding-left: 20%;
+    font-size: 30px;
+    /* border: solid 2px black; */
+    margin-top: 0%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.form {
+    /* margin-top: 20%; */
+    display: inline-block;
+    margin-top: 8%;
+    /* border: solid 2px black; */
+    border-radius: 10px;
+    margin-left: 4%;
+    background-color: white;
+    box-shadow: 5px 8px 10px rgb(197, 194, 194);
+}
+
+#email {
+    margin: 20px 15px 0px 15px;
+    border: solid 1px rgb(83, 82, 82);
+    display: block;
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#password {
+    margin: 0px 15px 5px 15px;
+    border: solid 1px rgb(83, 82, 82);
+    display: block;
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+#login_button {
+    /* display: block; */
+    height: 50px;
+    width: 360px;
+    border-radius: 10px;
+    margin: 0px 15px 20px 15px;
+    background: #316FF6;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+#forgot {
+    display: block;
+    /* border: solid 2px black; */
+    width: 300px;
+    margin: auto;
+    color: #316FF6;
+    background-color: white;
+}
+
+#acc_button {
+    border: solid 2px black;
+    /* display: block; */
+    height: 50px;
+    width: 225px;
+    border-radius: 10px;
+    margin: 10px 18px 30px 80px;
+    border: none;
+    background: #6ce51b;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
