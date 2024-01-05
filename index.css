@@ -44,7 +44,7 @@
     display: block;
     height: 50px;
     width: 350px;
-    border-radius: 10px;
+    border-radius: 7px;
     background-color: white;
 }
 
@@ -54,7 +54,7 @@
     display: block;
     height: 50px;
     width: 350px;
-    border-radius: 10px;
+    border-radius: 7px;
     background-color: white;
 
 }
@@ -92,4 +92,9 @@
     color: white;
     font-size: 20px;
     font-weight: 200;
+}
+input::placeholder{
+    font-size: 15px;
+    color: rgb(214, 214, 214);
+    padding: 2%;
 }
