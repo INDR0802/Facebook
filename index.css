@@ -1,18 +1,22 @@
 * {
-    background-color: #ececf0;
+    background-color: #f0f2f5;
+}
+
+body {
+    display: flex;
 }
 
 .intro {
     /* border: solid 2px black; */
     width: 45%;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 8%;
     display: inline-block;
 }
 
 #title {
     font-size: 60px;
-    padding-left: 20%;
+    padding-left: 21%;
     /* border: solid 2px black; */
     margin-bottom: 2%;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -20,8 +24,9 @@
 }
 
 #tagline {
-    padding-left: 20%;
-    font-size: 30px;
+    padding-left: 21%;
+    margin-right: 61px;
+    font-size: 25px;
     /* border: solid 2px black; */
     margin-top: 0%;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -33,7 +38,7 @@
     margin-top: 8%;
     /* border: solid 2px black; */
     border-radius: 10px;
-    margin-left: 4%;
+    margin-left: 3%;
     background-color: white;
     box-shadow: 5px 8px 10px rgb(197, 194, 194);
 }
@@ -93,7 +98,8 @@
     font-size: 20px;
     font-weight: 200;
 }
-input::placeholder{
+
+input::placeholder {
     font-size: 15px;
     color: rgb(214, 214, 214);
     padding: 2%;
